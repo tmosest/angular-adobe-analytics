@@ -1,0 +1,13 @@
+{
+  "name": "angular-adobe-analytics",
+  "description": "Useful Angular Wrapper for Adobe Analytics",
+  "ignore": [
+    "build",
+    "demos",
+    "test"
+  ],
+  "dependencies": {
+	},
+	"devDependencies": {
+  }
+}

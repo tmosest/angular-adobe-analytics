@@ -9,7 +9,6 @@
       return {
         restrict: 'A',
         link: function(scope, el, attrs) {
-          // http://stackoverflow.com/questions/28759818/angularjs-bind-click-event-to-children-of-directive-element/
           $timeout(function() {
             angular.element(el).on('click', function(evt) {
               if (evt && typeof _satellite != angular.isUndefined()) {
